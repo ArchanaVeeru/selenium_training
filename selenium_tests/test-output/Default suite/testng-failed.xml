@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.archana.selenium_tests.ExtentReportScreenshot">
+      <class name="org.archana.selenium_tests.DownloadFile">
         <methods>
-          <include name="tearDown"/>
-          <include name="extentreport"/>
-          <include name="setExtent"/>
+          <include name="downloadFileTest"/>
           <include name="setUp"/>
-          <include name="endReport"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- org.archana.selenium_tests.ExtentReportScreenshot -->
+      </class> <!-- org.archana.selenium_tests.DownloadFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
